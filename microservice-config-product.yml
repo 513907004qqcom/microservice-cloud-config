@@ -37,7 +37,7 @@ eureka:
 server:
   port: 8001 #端口号
 mybatis:
-  config-location: classpath:mybaits/mybatis.cfg.xml
+  config-location: classpath:mybatis/mybatis.cfg.xml
   type-aliases-package: com.mengxuegu.springcloud.entities
   mapper-locations: classpath:mybatis/mapper/**/*.xml
 spring:
